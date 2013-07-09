@@ -1,0 +1,34 @@
+.hand-in{
+	position: absolute;
+	top: 754px; left: 210px;
+	z-index: 2;
+}
+.hand-out{
+	position: absolute;
+	top: 0; left: 0;
+}
+.imgs-container{
+	position: absolute;
+	top: -754px; left: -210px;
+}
+.hand-container{
+	position: absolute;
+	clip:rect(0px,540px,370px,0);
+}
+
+.controls{
+	position: absolute;
+	top: 400px;
+}
+#txtContainer{
+	position: absolute;
+	top: 180px; left: 100px;
+
+	font-family: Helvetica;
+	font-size: 22px;
+
+	z-index: 2;
+}
+#txtContainer .txt{
+	float: left;
+}
